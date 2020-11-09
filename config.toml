@@ -1,0 +1,20 @@
+baseURL = "hosseinabedi.github.io/hoodedhenry/"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Hooded Henry"
+theme = "Blogpaper"
+ignoreErrors = ["error-remote-getjson"]
+#author = "Kain"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 0
